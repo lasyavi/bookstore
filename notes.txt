@@ -1,0 +1,58 @@
+CRUD OPERATIONS
+
+
+GET ALL books
+
+URL:http://localhost:3031/api/books
+REQUEST: GET
+Method: router.get()
+Fields: none
+
+
+GET SINGLE BOOK
+
+URL:http://localhost:3031/api/books/:id
+REQUEST: GET
+Method: router.get()
+Fields: none
+
+
+POST  ----create a book
+
+URL:http://localhost:3031/api/books
+REQUEST: POST
+Method: router.post()
+Fields: isbn,title,author,subTitle,publisher,pages,description
+
+UPDATE A BOOK
+
+URL:http://localhost:3031/api/books/:id
+REQUEST: PUT
+Method: router.put()
+Fields:isbn,title,author,subTitle,publisher,pages,description
+
+
+DELETE A BOOK
+URL:http://localhost:3031/api/books/:id
+REQUEST: DELETE
+Method: router.delete(),
+Fields:none
+
+
+
+Axios
+-used in client side for api calls
+-alternate for fetch api
+-install using npm install axios
+
+CORS issue
+- it is default behaviour of browser
+-when client and server side are different it occurs because
+ of security reasons
+ -in server side we have to  install cors
+
+
+
+
+
+

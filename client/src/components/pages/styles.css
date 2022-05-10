@@ -1,0 +1,12 @@
+.landing-page
+{
+  background: url("https://cdn.pixabay.com/photo/2016/01/06/17/34/library-1124718_960_720.jpg") scroll center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.wrapper
+{
+  background-color: rgba(0,0,0,0.2);
+  height: 100%;
+}
